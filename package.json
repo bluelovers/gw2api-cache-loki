@@ -1,0 +1,19 @@
+{
+  "name": "gw2api-cache-loki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "loki-fs-sync-adapter": "^1.0.2",
+    "lokijs": "^1.5.1"
+  },
+  "devDependencies": {
+    "gw2api-client": "^5.6.5"
+  }
+}
