@@ -1,7 +1,6 @@
 {
   "name": "gw2api-cache-loki",
   "version": "1.0.2",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,17 @@
   },
   "devDependencies": {
     "gw2api-client": "^5.6.5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/gw2api-cache-loki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bluelovers/gw2api-cache-loki/issues"
+  },
+  "homepage": "https://github.com/bluelovers/gw2api-cache-loki#readme",
+  "description": ""
 }
