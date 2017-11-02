@@ -60,6 +60,8 @@ export function get_col(db, cache_col: string, options: IColOptions = {}): LokiJ
 
 	if (!db_cache)
 	{
+		db.removeCollection(cache_col);
+
 		db_cache = db.addCollection(cache_col, { indices: [options.idx_unique].concat(options.idx) });
 
 		db_cache.ensureUniqueIndex(options.idx_unique);
